@@ -17,7 +17,13 @@
     outline: none;
     border: none;
 }
+.note_text::-webkit-scrollbar{
+    display: none;
+}
 
+.note_tetx::-webkit-input-placeholder{
+    color: #4ab7ff;
+}
 .note_footer{
     display: flex;
     justify-content: space-between;

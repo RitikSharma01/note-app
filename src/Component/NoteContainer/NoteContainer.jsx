@@ -12,7 +12,12 @@ function NoteContainer(props) {
         {props.notes.length > 0
           ? props.notes
               .map((item) => (
-                <Note key={item.id} note={item} deleteNote={props.deleteNote} />
+                <Note
+                  key={item.id}
+                  note={item}
+                  deleteNote={props.deleteNote}
+                  updateText={props.updateText}
+                />
               ))
               .reverse()
           : "No notes Present"}
