@@ -8,8 +8,8 @@ A simple note-taking app built with React.
 
 To install the React Note App, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/react-note-app.git`
-2. Navigate to the project directory: `cd react-note-app`
+1. Clone the repository: `git clone https://github.com/RitikSharma01/note-app.git`
+2. Navigate to the project directory: `cd note-app`
 3. Install the dependencies: `npm install`
 
 ## Usage
